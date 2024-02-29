@@ -1,0 +1,43 @@
+# Write a simple calcucalte function ..
+
+
+
+def additaion(num1, num2):
+  add=num1+num2
+  return add
+
+def sustraction(num1, num2):
+  sub=num1-num2
+  return sub
+
+def mulplication(num1, num2):
+  mul=num1*num2
+  return mul
+
+def division(num1, num2):
+  div=num1/num2
+  return div
+num1 =int(input("Enter the first number: "))
+num2=int(input("eNTER THE SECOND NUMBER: "))
+x=additaion(num1,num2)
+y=sustraction(num1,num2)  
+z=mulplication(num1,num2)
+n=division(num1,num2)
+print(x,y,z,n)
+
+
+
+
+
+
+
+# Import the entire module
+import math
+
+# Use functions/variables from the module
+result = math.sqrt(25)
+print(result)
+
+# Import specific function/variable from a module
+from math import pi
+print(pi)
