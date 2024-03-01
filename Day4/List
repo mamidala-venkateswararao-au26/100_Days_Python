@@ -6,3 +6,78 @@ print(2 not in l)
 print(10 in l)
 
 
+l= [2,3,4,5,6,7,8,9]
+
+print(2 in l)    #Membership Operaters (in,not in)
+print(2 not in l)
+
+print(10 in l)
+
+#Append
+
+l.append(10)    # append is used to add the element at the end of the list.
+print(l)
+
+#Insert
+l.insert(2,12)  # insert is used to add the element at the given index.
+
+print(l)
+
+#expend   #expend is used to add the list to the existing list.
+l.extend([1,2,3])
+print(l)
+
+#exteend  #expend is used to add the list to the existing list.
+l1=[1,2,3]
+l.extend(l1)
+print(l)
+
+#pop  #pop is used to remove the element from the list.
+
+s=l.pop()
+print(s)
+print(l)
+
+#remove  #remove is used to remove the element from the list.
+l.remove(3)
+print(l)
+
+#sort  #sort is used to sort the list in ascending order.
+l.sort()
+print(l)
+
+#indx  #indx is used to find the index of the element in the list.
+print(l.index(4))
+
+#count  #count is used to count the number of occurence of the element in the list.
+print(l.count(2))
+
+#reverse  #reverse is used to reverse the list.
+
+l.reverse()  # l.sort(reverse=true) is also used to reverse the list.
+print(l)
+
+#copy  #copy is used to copy the list.
+l2=l.copy()
+print(l2)
+
+#clear  #clear is used to clear the list.
+l.clear()
+print(l)
+
+#list comprehension
+l=[i for i in range(10)]
+print(l)
+
+#mianpulation of list
+l=[1,2,3,4,5,6,7,8,9]
+#slicing
+print(l[2:5])
+
+#min  min is used to find the minimum element in the list.
+print(min(l))
+
+#max  max is used to find the maximum element in the list.
+print(max(l))
+
+
