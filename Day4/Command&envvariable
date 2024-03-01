@@ -37,3 +37,10 @@ if addition == "/":
   output=div(num1,num2)  
   print(output)
 
+
+##########################################
+
+import os
+
+print(os.getenv("password"))                                # use to print for the sencisive info
+
