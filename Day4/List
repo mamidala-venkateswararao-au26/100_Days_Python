@@ -1,0 +1,8 @@
+l= [2,3,4,5,6,7,8,9]
+
+print(2 in l)    #Membership Operaters (in,not in)
+print(2 not in l)
+
+print(10 in l)
+
+
