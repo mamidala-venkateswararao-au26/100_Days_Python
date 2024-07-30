@@ -1,0 +1,42 @@
+
+What do you understand by type conversion ?
+ans) Type conversition is nothing but to change the one data type to onther datatype.
+
+Write a program to find out the simple interest .
+
+
+2)Differentiate between explicit and implicit conversion?
+Ans)  Implicit conversion is nothing but the data type takes conversion during the runtime automatacally..
+  example:
+  a-10
+  b=1.7
+  print(type(a))    ## output -int
+  print(type(b))    ##output -float
+
+---> In Explicit type conversion, we manually alter the datatype of a Python object to suit our purpose.
+ a=2
+b=2.3
+c=float(a)
+d=int(b)
+
+print(c)    # output-2.0
+print(d)    # output -2
+  
+3)What do you understand by string?
+ Ans) Strings are used for representing the textual data.A string is a sequence of characters enclosed in either single quotes ('') or double quotes (“”) .
+
+
+4)What do you understand by immutabilty and mutabilty of data type?
+  Mutable is nothing but anything can be modified or changeble..   ex: list,dist,sets
+
+  immutable is nothing but which is cannot to be changed .  ex: tuples,Strings
+
+
+5)Explain the concept of indexing?
+
+Explain scenario when final answer is false if we are using “and” operator
+
+What do you understand by precedence of operators
+
+
+  
