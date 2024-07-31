@@ -1,9 +1,6 @@
 
-What do you understand by type conversion ?
-ans) Type conversition is nothing but to change the one data type to onther datatype.
-
-Write a program to find out the simple interest .
-
+1)What do you understand by type conversion ?
+ans) Type conversition is nothing but to change the one data type to onther datatype
 
 2)Differentiate between explicit and implicit conversion?
 Ans)  Implicit conversion is nothing but the data type takes conversion during the runtime automatacally..
@@ -33,10 +30,58 @@ print(d)    # output -2
 
 
 5)Explain the concept of indexing?
+Ams) Indexing is nothing but accesing the specific element in the sequence such as list ,string.
 
-Explain scenario when final answer is false if we are using “and” operator
+6)Explain scenario when final answer is false if we are using “and” operator
+a=10
+b=11
+print((a==b) and (a==10))
 
-What do you understand by precedence of operators
+using not opratore:
+a=10
+b=11
+print(not(a==b) and (a==10))
 
+7)What do you understand by precedence of operators?
+Ans)Precedence of Python Operators
+The combination of values, variables, operators, and function calls is termed as an expression. The Python interpreter can evaluate 
+a valid expression.
+
+For example:
+
+>>> 5 - 7
+-2
+Here 5 - 7 is an expression. There can be more than one operator in an expression.
+
+To evaluate these types of expressions there is a rule of precedence in Python. It guides the order in which these operations are carried out.
+
+For example, multiplication has higher precedence than subtraction.
+
+# Multiplication has higher precedence
+# than subtraction
+>>> 10 - 4 * 2
+2
+But we can change this order using parentheses () as it has higher precedence than multiplication.
+
+# Parentheses () has higher precedence
+>>> (10 - 4) * 2
+12
+
+
+9)Write a program to find out the simple interest .
+Ans) 
+p=int(input("enter the value:"))
+t=int(input("enter the value:"))
+r=int(input("enter the value:"))
+c=p*t*r/100
+print(c)
+
+10)Write a program to find out the area of a circle?
+Ans)
+pi=22/7
+r=int(input("enter the value:"))
+c=pi*(r**r)
+
+print(c)
 
   
