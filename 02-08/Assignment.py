@@ -66,6 +66,17 @@ list : list is nothing but collection of elements. each value has index values .
 remove the values and deleteing list.
 
 5- name mutable and immutable data type.?
+Mutable: lists are mutable .. mutable means you can change the list add the values delete the elements .. 
+
+UnMutable : immutables are tapule.. once they createeeeevalues it is not possible to change..
+
+
+
+6- what is the use of remove function in string?
+
+Strings are data types used to represent text/characters. In this article, we present different methods for the problem 
+                                                                                                         
+  of removing the ith character from a string and talk about possible solutions that can be employed in achieving them using Python
 
 
 
