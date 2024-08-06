@@ -1,0 +1,103 @@
+                        #String problms
+'''a="this is my first program. this is good"
+print(a.capitalize())
+print(a.upper())
+print(a.lower())
+print(a.title())
+
+a="this is my first program. this is good"
+print(a.find("t"))    #return index of first occurence
+
+name="venkatesh"
+print(name.isalpha())     ##checks all characters or not
+
+PhNumber= "1234489" 
+print(PhNumber.isdigit())   ## vCheck all numbers or not]
+
+
+name=" "
+print(name.isspace())
+a="this is my first program. this is good"
+print(a.islower())  # it is return wheather character are lower or not  --> return true
+
+print(a.isupper())   # return false
+
+print(a.replace("is","was")) # replace the values .it's called overraide 
+
+
+                        # List
+                        
+a=[]
+print(a)
+print(len(a))
+
+a=[1,2,3,4,"varun",7,9]
+
+print(a)
+
+print(len(a))
+
+print(a[4])   
+
+b=["hello","hai"]
+
+print(a+b+[23,45])
+
+print((a+b+a)*3)
+
+
+print(5 in a)   # return false
+
+print(4 in a)   # return true
+
+a[0]="no"
+
+print(a)    # it replaced by 0 index value
+
+           #NESTED LIST
+           
+a=[1,2,["varun","dharshani"]]
+print(a)
+print(a[2][1])
+
+
+           #APPEND ADD THE VALUE AT END
+
+a=[1,2,3,4,5,6]
+a.append("varun")
+print(a)
+
+a[2]="dharshan"
+
+print(a)
+
+#a.remove[1]
+
+print(a)
+
+a.del[1:4]    # deleting the element using slicing'''
+
+                    # INDEX POSITION AND ADDING ELEMENT
+                    
+
+a=[1,2,3,4,5,6,7]
+
+print(a.index(6))  # 6 is the element where it is particual exit.
+
+#print(a.index(2))
+
+#print(a.extend([22,5]))
+
+a.insert(0,"Varun")    # 0 is the position where you want to add the element.
+a.insert(1,"Dharshan")
+print(a)
+
+
+
+
+
+
+
+
+
+
