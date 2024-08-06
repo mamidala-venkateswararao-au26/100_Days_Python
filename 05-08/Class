@@ -1,0 +1,42 @@
+             # Pop,Remove ,Clear
+             
+a=[1,23,44,32,45,55]
+
+print("pop element is ",a.pop(3))   # 3 index ele 32 was deleted
+
+print(a)
+
+a.remove(44)
+# remove function is used for to delete the element 
+print(a)  #[1, 23, 45, 55]
+
+a.clear()
+print(a)   # to remove the all the lements in the list
+
+              # Sorting data ,Assending &Decending Order
+              
+a=[1,23,4,2,44,53,879,78]   
+a.sort()
+print(a)   # [1, 2, 4, 23, 44, 53, 78, 879] Assending
+a.sort(reverse=True)
+print(a)
+
+a=[1,23,4,2,44,53,87,78] 
+a.reverse()
+print(a)
+
+#COUNT THE ELEMENT IN THE LIST..
+
+b=[23,43,67,34,3,34,43]
+print(b.count(43))  # it will return the value of howmany times it is in the list.
+              #Sequenced or ordered  - string ,list ,tuple
+              
+t=(1,4,3,7,6,8,8,4,8)
+
+print(type(t))
+print(len(t))
+
+print(max(t))
+print(min(t))
+print(t.count(8))
+print(t.index(8))
