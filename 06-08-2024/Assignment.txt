@@ -1,0 +1,7 @@
+06-08
+
+1) Differance between set and dict:
+    
+Set: sets are unorders,unchangebule data type..and sets cannot allow the duplicates.set have {} curle brases
+Dict: Dicts are collaction of keys and pairs.. dict are mutable.. but key must be immutable.. key should be unique..
+dict have {keys:values}
