@@ -1,0 +1,101 @@
+
+#06-08-2024 
+
+#Today i learned about Dict and sets
+
+#Dictionary is collection of keys &pair values..dict is mutable data type and key must be immutable..keys should be unique..
+
+
+a={"name":"varun","age":28,"city":"Hyderabad","country":"India"}
+
+print(a)          #{'name': 'varun', 'age': 28, 'city': 'Hyderabad', 'country': 'India'}
+
+print(a["age"])  # accesing invidual values
+
+print(len(a))
+
+a["language"]="Telugu"  # adding the value
+
+a["age"]=27     # updating the values
+
+print(a.keys())          #dict_keys(['name', 'age', 'city', 'country', 'language'])
+
+print(a.values())    #dict_values(['varun', 27, 'Hyderabad', 'India', 'Telugu'])
+
+
+print(a)            #{'name': 'varun', 'age': 27, 'city': 'Hyderabad', 'country': 'India', 'language': 'Telugu'}
+
+print(len(a))
+
+b={}
+
+print(b)
+
+b[23]="varun"
+b[24]="dharshan"
+
+print(b)              #{23: 'varun', 24: 'dharshan'}
+
+b.pop(23)
+
+print(b)              #{24: 'dharshan'}
+
+
+#                    SETS 
+ #Sets are unorder,unchangeble data types.. Sets cannot allow the duplicates..
+ 
+s={"varun","Dharshan","Mamidal",33,33}
+print(s)              #{'varun', 33, 'Mamidal', 'Dharshan'}
+
+s.add(43)
+
+print(s)           
+
+t={47,54}
+
+s.update(t)
+
+print(s)           #{33, 'Dharshan', 43, 'varun', 47, 'Mamidal', 54}
+
+s.remove(47)
+
+print(s)         #{'Dharshan', 33, 'varun', 43, 54, 'Mamidal'}
+
+print(s.intersection(t))
+t.clear()
+print(t)                #set()
+
+
+#                 Block Statements (IF/ELSE)
+
+
+# block statement is nothing but more than one statement is there.
+
+age =int(input("enter the age:"))
+
+if age>=19:
+    print("You are eligable")
+else:
+    print("you are not eligable")
+    
+print("exit")
+
+#1- progam to find out whether number entered by the user is positive or negative
+
+num=int(input("enter the number"))
+
+if (num%2==0):
+    print("possitive")
+else:
+    print("nagitive")
+    
+print("exit")
+
+
+
+
+
+
+
+
+
