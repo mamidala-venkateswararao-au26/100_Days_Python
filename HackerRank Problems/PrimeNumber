@@ -1,0 +1,21 @@
+PrimeNumber:
+A prime number is a natural number greater than 1 that has no positive divisor other than 1 and itself.
+
+
+#Number entered by the use - prime or not ?
+
+
+n=int(input("enter the value:"))
+
+prime=0
+
+for i in range(2,n):
+    if (n%i==0):
+        prime+=1
+        break
+    
+if (prime==1):
+    print("not prime number")
+else:
+    print("prime number")
+    
