@@ -67,7 +67,7 @@ Explanation
 
 
 
-# Enter your code here. Read input from STDIN. Print output to STDOUT
+# Enter your code here. Read input from STDIN. Print output to
 
 def isValid(x):
     if len(x) not in [16,19]:
